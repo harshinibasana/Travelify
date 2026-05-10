@@ -1,0 +1,27 @@
+.flight-tab{display:flex;flex-direction:column;gap:14px;}
+.ft-header{display:flex;align-items:center;justify-content:space-between;}
+.ft-header h3{font-size:17px;font-weight:700;color:#0F172A;margin-bottom:2px;}
+.ft-sub{font-size:12px;color:#94a3b8;}
+.ft-list{display:flex;flex-direction:column;gap:10px;}
+.ft-card{background:white;border:1.5px solid #E8EDF5;border-radius:16px;padding:16px;box-shadow:0 2px 12px rgba(10,77,110,0.06);transition:box-shadow 0.2s;}
+.ft-card:hover{box-shadow:0 6px 24px rgba(10,77,110,0.12);}
+.ft-card-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px;}
+.ft-flight-no{display:flex;align-items:center;gap:8px;font-size:15px;font-weight:800;color:#0F172A;}
+.ft-airline{font-size:12px;font-weight:500;color:#64748b;}
+.ft-status-badge{font-size:11px;font-weight:700;padding:3px 10px;border-radius:8px;}
+.ft-route{display:flex;align-items:center;gap:0;margin-bottom:12px;}
+.ft-endpoint{flex-shrink:0;text-align:center;min-width:60px;}
+.ft-endpoint.ft-right{text-align:center;}
+.ft-iata{font-size:24px;font-weight:900;color:#0F172A;font-family:'Playfair Display',serif;line-height:1;}
+.ft-time{font-size:11px;font-weight:600;color:#64748b;margin-top:3px;}
+.ft-terminal{font-size:10px;color:#94a3b8;margin-top:2px;}
+.ft-route-mid{flex:1;display:flex;flex-direction:column;align-items:center;gap:4px;padding:0 8px;}
+.ft-route-line{display:flex;align-items:center;gap:0;width:100%;}
+.ft-dot-left,.ft-dot-right{width:7px;height:7px;border-radius:50%;background:#0A4D6E;flex-shrink:0;}
+.ft-line{flex:1;height:2px;background:linear-gradient(90deg,#0A4D6E,#E8614D);display:flex;align-items:center;justify-content:center;}
+.ft-dur{font-size:10px;font-weight:600;color:#94a3b8;display:flex;align-items:center;gap:3px;}
+.ft-notes{font-size:12px;color:#64748b;background:#F8FAFD;border-radius:8px;padding:7px 10px;margin-bottom:10px;}
+.ft-actions{display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap;padding-top:10px;border-top:1px solid #F1F5F9;}
+.ft-status-btns{display:flex;flex-wrap:wrap;gap:4px;}
+.ft-st-btn{font-size:10px;font-weight:600;padding:3px 8px;border-radius:6px;border:1.5px solid #E2E8F0;background:white;cursor:pointer;font-family:'DM Sans',sans-serif;color:#64748b;transition:all 0.15s;}
+.ft-st-btn.active{font-weight:800;}

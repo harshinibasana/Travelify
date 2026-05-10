@@ -1,0 +1,42 @@
+.visa-tab { display:flex;flex-direction:column;gap:16px; }
+.visa-header { display:flex;align-items:flex-start;gap:12px; }
+.visa-header h3 { font-size:16px;font-weight:700;color:#0F172A;margin-bottom:2px; }
+.visa-header p { font-size:12px;color:#94a3b8; }
+.visa-dest-grid { display:grid;grid-template-columns:repeat(3,1fr);gap:8px; }
+.visa-dest-btn { background:white;border:1.5px solid #E8EDF5;border-radius:12px;padding:10px 12px;cursor:pointer;text-align:left;transition:all 0.15s;font-family:'DM Sans',sans-serif; }
+.visa-dest-btn:hover { border-color:rgba(10,77,110,0.3);box-shadow:0 2px 10px rgba(10,77,110,0.08); }
+.visa-dest-btn.active { border-color:#0A4D6E;background:rgba(10,77,110,0.04);box-shadow:0 0 0 3px rgba(10,77,110,0.1); }
+.vdb-flag { font-size:16px;display:block;margin-bottom:3px; }
+.vdb-name { font-size:11px;font-weight:700;color:#0F172A;display:block; }
+.vdb-type { font-size:10px;font-weight:600;display:block;margin-top:2px; }
+.visa-card { background:white;border:1.5px solid #E8EDF5;border-radius:16px;padding:18px;box-shadow:0 4px 20px rgba(10,77,110,0.07); }
+.vc-header { display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:14px; }
+.vc-header h4 { font-size:16px;font-weight:800;color:#0F172A;margin-bottom:6px; }
+.vc-type-badge { font-size:11px;font-weight:700;padding:3px 10px;border-radius:8px; }
+.vc-stats { display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:14px;padding-bottom:14px;border-bottom:1px solid #F1F5F9; }
+.vc-stat { background:#F8FAFD;border-radius:10px;padding:10px;text-align:center; }
+.vc-stat span { font-size:10px;color:#94a3b8;display:block;margin-bottom:4px; }
+.vc-stat strong { font-size:13px;font-weight:700;color:#0F172A; }
+.vc-reqs { margin-bottom:12px; }
+.vc-req-title { font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.5px;color:#94a3b8;margin-bottom:8px; }
+.vc-req-item { display:flex;align-items:center;gap:8px;padding:5px 0;font-size:13px;color:#334155; }
+.vc-notes { background:#FFFBEB;border:1.5px solid #FDE68A;border-radius:10px;padding:10px 13px;font-size:12px;color:#92400E;display:flex;align-items:flex-start;gap:7px;line-height:1.6; }
+.visa-empty { text-align:center;padding:32px 20px;color:#94a3b8; }
+.visa-disclaimer { font-size:11px;color:#94a3b8;background:#F8FAFD;border-radius:10px;padding:10px 13px;line-height:1.6; }
+.visa-disclaimer a { color:#0A4D6E; }
+
+/* Visa search bar */
+.visa-search { margin-bottom: 14px; }
+.vs-wrap { display:flex; align-items:center; gap:8px; background:white; border:1.5px solid #E8EDF5; border-radius:12px; padding:8px 12px; }
+.vs-wrap:focus-within { border-color:#0A4D6E; }
+.vs-icon { color:#94a3b8; flex-shrink:0; }
+.vs-input { flex:1; border:none; outline:none; font-size:13px; font-family:'DM Sans',sans-serif; color:#0F172A; background:transparent; }
+.vs-not-found { font-size:12px; color:#EF4444; padding:6px 4px; }
+
+/* More destination buttons */
+.visa-dest-btn { background:white; border:1.5px solid #E8EDF5; border-radius:10px; padding:8px 10px; cursor:pointer; text-align:left; transition:all 0.15s; font-family:'DM Sans',sans-serif; }
+.visa-dest-btn:hover { border-color:rgba(10,77,110,0.3); box-shadow:0 2px 10px rgba(10,77,110,0.08); }
+.visa-dest-btn.active { border-color:#0A4D6E; background:rgba(10,77,110,0.04); }
+.vdb-flag { font-size:18px; display:block; margin-bottom:3px; }
+.vdb-name { font-size:11px; font-weight:700; color:#0F172A; display:block; }
+.vdb-type { font-size:10px; font-weight:600; display:block; margin-top:2px; text-overflow:ellipsis; white-space:nowrap; overflow:hidden; }
