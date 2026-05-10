@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Travelify/static/css/main.bdfd5c0e.css",
+    "main.js": "/Travelify/static/js/main.a83a7b2e.js",
+    "index.html": "/Travelify/index.html",
+    "main.bdfd5c0e.css.map": "/Travelify/static/css/main.bdfd5c0e.css.map",
+    "main.a83a7b2e.js.map": "/Travelify/static/js/main.a83a7b2e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bdfd5c0e.css",
+    "static/js/main.a83a7b2e.js"
+  ]
+}
